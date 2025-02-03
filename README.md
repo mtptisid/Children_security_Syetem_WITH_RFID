@@ -31,5 +31,44 @@ This project is an **RFID-based student tracking system** that **sends SMS notif
 
 ## Installation & Setup
 1. **Install Python dependencies**:
-   ```sh
+   ```
    pip install pyserial requests
+   ```
+2. **Connect Arduino** to your PC and upload the RFID reader code.
+3. **Update the Python script** with the correct **COM port** (e.g., `COM7`).
+4. **Run the Python script**:
+   ```
+   python student_tracking.py
+   ```
+5. **Scan an RFID card** and check for SMS notifications.
+
+## Potential Improvements
+### 1. **Using IoT & Cloud for Real-Time Tracking**
+   - Replace SMS with **push notifications** via **Firebase or MQTT**.
+   - Store attendance logs in **Google Sheets** or **a cloud database**.
+
+### 2. **GPS Integration for Live Bus Tracking**
+   - Add **GPS modules** to track the school bus in real-time.
+   - Send **live bus location** via a **mobile app or web dashboard**.
+
+### 3. **AI & Machine Learning for Predictive Analysis**
+   - Predict **bus arrival times** using AI models.
+   - Analyze **student attendance trends**.
+
+### 4. **Enhancing with NFC or QR Code**
+   - Replace RFID with **NFC (Near Field Communication)** for better accuracy.
+   - Use **QR codes** that students scan with a **mobile app**.
+
+## Applications in Other Sectors
+- **Corporate Security**: Employee check-in & access control.
+- **Event Management**: Ticket validation & attendee tracking.
+- **Healthcare**: Patient tracking in hospitals.
+- **Logistics**: Warehouse inventory tracking.
+
+## License
+This project is open-source and available under the **MIT License**.
+
+---
+**Author:** Siddharamayya M  
+📧 Email: [msidrm455@gmail.com](mailto:msidrm455@gmail.com)  
+🌍 Portfolio: [https://mtptisid.github.io](https://mtptisid.github.io)
